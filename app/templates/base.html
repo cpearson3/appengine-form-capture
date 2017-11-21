@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index">
+<title>{{data.context.title}}</title>
+<meta name="description" content="{{data.context.description}}">
+<meta name="description" content="{{data.context.description}}">
+<meta property="og:title" content="{{data.context.title}}">
+<meta property="og:description" content="{{data.context.description}}">
+<meta property="og:image" content="{{data.context.image}}">
+<meta property="og:url" content="{{data.context.base_url}}">
+<meta name="twitter:title" content="{{data.context.title}}">
+<meta name="twitter:description" content="{{data.context.description}}">
+<meta name="twitter:image" content="{{data.context.image}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/assets/build/style.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+<script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+<script src="/bower_components/bootsmooth/dist/bootsmooth.js"></script>
+</head>
+<body class="login" style="background:#eee;">
+
+{% block content %}
+{% endblock %}
+{% include 'footer.html' %}
+
+</body>
+</html>
